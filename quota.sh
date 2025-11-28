@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variable
-HOME_DIR="/"
+HOME_DIR="/home"
 DATA="/data"
 FSTAB="/etc/fstab"
 USERS=$(awk -F: '$3 >= 1000 {print $1}' /etc/passwd)
